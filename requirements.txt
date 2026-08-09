@@ -1,0 +1,11 @@
+# ---------------------------------------------------------------------------
+# AI Study Buddy — dependências do projeto
+# Instale com:  pip install -r requirements.txt
+# ---------------------------------------------------------------------------
+
+python-telegram-bot>=21.0      # Integração com o Telegram (API assíncrona)
+openai>=1.30.0                 # Geração de resumos e flashcards com IA
+schedule>=1.2.0                # Agendamento das revisões diárias
+
+# Nota: o sqlite3 faz parte da biblioteca padrão do Python —
+# não requer instalação.
